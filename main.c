@@ -45,7 +45,7 @@ int main() {
   int kb = byte / 1000;
   int mb = kb / 1000;
   int gb = mb / 1000;
-  sprintf(size, "%d bytes\n%d KB\n%d MB\n%d GB", byte, kb, mb, gb);
+  sprintf(size, "%d B\n%d KB\n%d MB\n%d GB", byte, kb, mb, gb);
   printf("%s\n", size);
   printf("Time of last access: %s", ctime(&(s->st_atime)));
 
