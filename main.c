@@ -83,6 +83,6 @@ int main() {
   free(perms0);
   free(perms1);
   free(permissions);
-  printf("%s\n", "make: *** [run] Segmentation fault: 11");
+  // printf("%s\n", "make: *** [run] Segmentation fault: 11");
   return 0;
 }
